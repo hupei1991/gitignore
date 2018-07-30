@@ -3,6 +3,14 @@
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
 # based on opensourced .gitignore from github
 
+# ignore DS_Store
+*/.DS_Store
+
+# user's data
+xcuserdata
+xcuserdata/
+*.xcuserstate
+
 # ignore itself
 *.gitignore
 Podfile.*
@@ -20,12 +28,12 @@ DerivedData/
 !default.mode2v3
 *.perspectivev3
 !default.perspectivev3
-xcuserdata/
 
 ## Other
 *.moved-aside
 *.xccheckout
 *.xcscmblueprint
+*.ipa
 
 ## Obj-C/Swift specific
 *.hmap
