@@ -6,6 +6,16 @@
 # ignore DS_Store
 */.DS_Store
 
+# AppCode files
+.idea/
+*/.idea/
+*/codeStyle/
+Project.xml
+misc.xml
+modules.xml
+workspace.xml
+xcode.xml
+
 # user's data
 xcuserdata
 xcuserdata/
